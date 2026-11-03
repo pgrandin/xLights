@@ -104,7 +104,7 @@
       "what": "A 3D-printed singing Christmas bulb about 46\" tall (the listing also says 37\" in one place): 200 × 12 mm bullet pixels for the outline, base, eyes and phoneme mouth shapes. Puzzle-jointed segments fit a 256 × 256 mm print bed, and it mounts on ½\" PVC conduit over rebar. Ships with a ready-to-import xLights .xmodel that has the singing-face submodels.",
       "fit": "Your Pierre Chromabulb is already a singing bulb (142 px, \"Hanging Bulbs\" face, sings in When I'm Older), so this would be a second singer for duets. 200 px fits one free port with room to spare. Lip-sync needs a lyrics track broken into phonemes. The Ozzy sequence has phrases only and doesn't make Pierre sing yet.",
       "need": "Where it would stand next to Pierre, and whether the 12 mm bullets match your pixel stock (voltage and connector).",
-      "cost": "Not listed: 200 × 12 mm bullet pixels, PETG or ASA filament, ½\" PVC conduit, rebar, CA glue.",
+      "cost": "Not listed: 200 × 12 mm bullet pixels, PETG or ASA filament, ½\" PVC conduit, rebar, CA glue. Print time isn't listed either. The same maker's 200-pixel sorting hat (33\" × 43\", same build system) takes about 43 h and 1.1 kg of filament, so expect something similar.",
       "caveats": "Print in PETG or ASA for weather and UV. CA-glue the seams for winter wind.",
       "files": [
         {
