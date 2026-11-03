@@ -1,0 +1,110 @@
+{
+  "controller": {
+    "name": "Falcon F16V3",
+    "portCount": 16,
+    "maxPxPerPort": 830,
+    "ports": [
+      {
+        "port": 2,
+        "name": "Small snowflakes L/C/R",
+        "px": 150
+      },
+      {
+        "port": 3,
+        "name": "Garage Double",
+        "px": 300
+      },
+      {
+        "port": 4,
+        "name": "Garage Single",
+        "px": 300
+      },
+      {
+        "port": 5,
+        "name": "Panel (90.7 FM sign)",
+        "px": 256
+      },
+      {
+        "port": 8,
+        "name": "Archs",
+        "px": 740
+      },
+      {
+        "port": 9,
+        "name": "Pierre Chromabulb",
+        "px": 142
+      },
+      {
+        "port": 10,
+        "name": "Awnings top + bottom",
+        "px": 120
+      },
+      {
+        "port": 12,
+        "name": "Garage line",
+        "px": 110
+      },
+      {
+        "port": 13,
+        "name": "Star",
+        "px": 120
+      },
+      {
+        "port": 14,
+        "name": "Tree (180°, 16 × 50)",
+        "px": 800
+      },
+      {
+        "port": 16,
+        "name": "Big snowflakes × 2",
+        "px": 200
+      }
+    ],
+    "notes": [
+      "Dashed = free port",
+      "Red = near the ~830 px one port can drive at 25 ms frames (WS2811)",
+      "From xlights_rgbeffects.xml (Dec 2025 layout)"
+    ]
+  },
+  "props": [
+    {
+      "id": "reddit-1xm1edn",
+      "url": "https://www.reddit.com/r/xlights/comments/1xm1edn/diy_heavyduty_10foot_mega_tree_3d_printed/",
+      "title": "DIY heavy-duty 10-foot mega tree, 3D printed",
+      "source": "r/xlights",
+      "kind": "Mega tree",
+      "addedAt": "2026-11-03",
+      "order": 1,
+      "status": "To review",
+      "what": "A 10-foot mega tree built around 3D-printed parts. From the title only so far: the pixel count, pole and print files are still unknown.",
+      "fit": "It would join the existing Tree, a 180° half tree (16 strands × 50 px = 800 px) that already fills port 14. A full 10-foot tree is commonly 16–24 strands of 50–100 px. At 16 × 100 = 1,600 px it would take 2 of the 5 free ports.",
+      "need": "Strand count, pixels per strand, pole size, how it's anchored against wind, and the print-file link."
+    },
+    {
+      "id": "reddit-1xc42hv",
+      "url": "https://www.reddit.com/r/xlights/comments/1xc42hv/inspired_by_coro_props_i_designed_this_3d_printed/",
+      "title": "Inspired by coro props, I designed this 3D printed…",
+      "source": "r/xlights",
+      "kind": "Coro-style prop",
+      "addedAt": "2026-11-03",
+      "order": 2,
+      "status": "To review",
+      "what": "A 3D-printed version of a coro prop (pixels pushed through a corrugated-plastic face). Reddit cuts the title off in the link, so which prop it is is still unknown.",
+      "fit": "Coro-style props usually run 50–300 px, so one free port can carry it, or several chained on the same port.",
+      "need": "What the prop is, its size, pixel count and pixel type (bullet or square), print time, and the print-file link."
+    },
+    {
+      "id": "reddit-1x55ihg",
+      "url": "https://www.reddit.com/r/xlights/comments/1x55ihg/free_3d_printable_tune_in_fm_sign_147_bullet/",
+      "title": "Free 3D printable \"Tune in FM\" sign, 147 bullet…",
+      "source": "r/xlights",
+      "kind": "FM sign",
+      "addedAt": "2026-11-03",
+      "order": 3,
+      "status": "To review",
+      "what": "A free printable sign telling passers-by to tune their radio, with 147 bullet pixels going by the title. The post itself isn't read yet.",
+      "fit": "147 px fits on one free port with plenty of headroom. It does the job the 32 × 8 Panel does today (scrolling LISTEN TO 90.7 FM, 256 px on port 5), so it could replace the Panel or sit beside it.",
+      "need": "Whether the station number can be set to 90.7, the sign's size, and the print-file link."
+    }
+  ]
+}
