@@ -1,0 +1,138 @@
+{
+  "controller": {
+    "name": "Falcon F16V3",
+    "portCount": 16,
+    "maxPxPerPort": 830,
+    "ports": [
+      {
+        "port": 2,
+        "name": "Small snowflakes L/C/R",
+        "px": 150
+      },
+      {
+        "port": 3,
+        "name": "Garage Double",
+        "px": 300
+      },
+      {
+        "port": 4,
+        "name": "Garage Single",
+        "px": 300
+      },
+      {
+        "port": 5,
+        "name": "Panel (90.7 FM sign)",
+        "px": 256
+      },
+      {
+        "port": 8,
+        "name": "Archs",
+        "px": 740
+      },
+      {
+        "port": 9,
+        "name": "Pierre Chromabulb",
+        "px": 142
+      },
+      {
+        "port": 10,
+        "name": "Awnings top + bottom",
+        "px": 120
+      },
+      {
+        "port": 12,
+        "name": "Garage line",
+        "px": 110
+      },
+      {
+        "port": 13,
+        "name": "Star",
+        "px": 120
+      },
+      {
+        "port": 14,
+        "name": "Tree (180°, 16 × 50)",
+        "px": 800
+      },
+      {
+        "port": 16,
+        "name": "Big snowflakes × 2",
+        "px": 200
+      }
+    ],
+    "notes": [
+      "Dashed = free port",
+      "Red = near the ~830 px one port can drive at 25 ms frames (WS2811)",
+      "From xlights_rgbeffects.xml (Dec 2025 layout)"
+    ]
+  },
+  "props": [
+    {
+      "id": "reddit-1xm1edn",
+      "url": "https://www.reddit.com/r/xlights/comments/1xm1edn/diy_heavyduty_10foot_mega_tree_3d_printed/",
+      "title": "DIY Heavy-Duty 10-Foot Mega Tree (3D Printed)",
+      "source": "r/xlights · u/dr_jared88",
+      "kind": "Mega tree",
+      "addedAt": "2026-11-03",
+      "order": 1,
+      "status": "To review",
+      "what": "A 10-foot, 180° (front-facing) mega tree: 16 strands of 12 V seed pixels at 5 cm pitch, 800 px plus a 50 px topper star. The mast is ¾\" EMT conduit on a printed 8-spoke hub, and a 10-foot stick of ¾\" PEX-B makes a 38\" base ring. Strings are 100-seed loops that go up and back down, so each plug feeds two strands and a dead pixel means swapping one loop. No soldering.",
+      "fit": "Same layout as your current Tree (Tree 180, 16 × 50 = 800 px), so the existing tree model and every sequence would drive it unchanged. The author splits it across 2 ports of 400 px, which sidesteps the ~830 px one-port limit your Tree sits at today. Tree plus star is 2–3 of your 5 free ports. The frame also takes 32 or 64 strands later (1,600 or 3,200 px) without changes.",
+      "need": "Is the current Tree a structure like this one? If it's due for a rebuild, this is a near drop-in.",
+      "cost": "About $165 USD ($230 CAD): $120 seed pixels, $80 hardware store (3 × 10 ft EMT, 1 × 10 ft PEX, bolts), $20 Amazon (16 mini ball bungees, landscape spikes), under $10 filament.",
+      "caveats": "Print the structural parts in PETG or ASA, not PLA: PLA deforms under tension and shatters in sub-zero cold. Pixels are 12 V, so check the voltage on the F16V3 bank you'd use. Commenters recommend guy wires (the author agreed) and stakes for the base, and say seed strands under tension can break in wind. One builder uses UV-rated rubber bands at the strand ends and replaces them yearly. Runs at 50% brightness with no power injection, so full white needs injection tees.",
+      "files": [
+        {
+          "label": "MakerWorld: parts, cut list, build guide",
+          "url": "https://makerworld.com/en/models/3535560-heavy-duty-10-foot-mega-tree-wled-xlights"
+        },
+        {
+          "label": "Seed pixels used (AliExpress)",
+          "url": "https://www.aliexpress.com/item/1005006616826100.html"
+        }
+      ]
+    },
+    {
+      "id": "reddit-1xc42hv",
+      "url": "https://www.reddit.com/r/xlights/comments/1xc42hv/inspired_by_coro_props_i_designed_this_3d_printed/",
+      "title": "Inspired by coro props, I designed this 3D printed singing bulb",
+      "source": "r/xlights · u/dr_jared88 (same maker as the mega tree)",
+      "kind": "Singing face prop",
+      "addedAt": "2026-11-03",
+      "order": 2,
+      "status": "To review",
+      "what": "A 3D-printed singing Christmas bulb about 46\" tall (the listing also says 37\" in one place): 200 × 12 mm bullet pixels for the outline, base, eyes and phoneme mouth shapes. Puzzle-jointed segments fit a 256 × 256 mm print bed, and it mounts on ½\" PVC conduit over rebar. Ships with a ready-to-import xLights .xmodel that has the singing-face submodels.",
+      "fit": "Your Pierre Chromabulb is already a singing bulb (142 px, \"Hanging Bulbs\" face, sings in When I'm Older), so this would be a second singer for duets. 200 px fits one free port with room to spare. Lip-sync needs a lyrics track broken into phonemes. The Ozzy sequence has phrases only and doesn't make Pierre sing yet.",
+      "need": "Where it would stand next to Pierre, and whether the 12 mm bullets match your pixel stock (voltage and connector).",
+      "cost": "Not listed: 200 × 12 mm bullet pixels, PETG or ASA filament, ½\" PVC conduit, rebar, CA glue. Print time isn't listed either. The same maker's 200-pixel sorting hat (33\" × 43\", same build system) takes about 43 h and 1.1 kg of filament, so expect something similar.",
+      "caveats": "Print in PETG or ASA for weather and UV. CA-glue the seams for winter wind.",
+      "files": [
+        {
+          "label": "MakerWorld: files and .xmodel",
+          "url": "https://makerworld.com/en/models/3474528-46-singing-christmas-bulb-led-prop-xlights"
+        }
+      ]
+    },
+    {
+      "id": "reddit-1x55ihg",
+      "url": "https://www.reddit.com/r/xlights/comments/1x55ihg/free_3d_printable_tune_in_fm_sign_147_bullet/",
+      "title": "Free 3D Printable \"Tune In\" FM Sign (147 Bullet Pixels)",
+      "source": "r/xlights · u/dr_jared88 (same maker)",
+      "kind": "FM sign",
+      "addedAt": "2026-11-03",
+      "order": 3,
+      "status": "To review",
+      "what": "A 22\" × 18\" printed sign: a \"TUNE\" header plus a numeric area for the station, 147 × 12 mm bullet pixels. Version 2 has an open frame to cut wind drag and 30% less filament, prints without supports, and has snap clips for two ½\" PVC posts over rebar. Free, with a ready-to-import xLights .xmodel.",
+      "fit": "147 px fits one free port easily. It does the job the 32 × 8 Panel does now (scrolling LISTEN TO 90.7 FM, 256 px on port 5): readable at a glance from a moving car, where the Panel needs time to scroll. It could replace the Panel and free port 5, or stand at the curb while the Panel stays on the house.",
+      "need": "Check the .xmodel: are the station digits pixel segments (so the sequence can show 90.7) or printed?",
+      "cost": "Not listed: 147 × 12 mm bullet pixels, PETG or ASA, two ½\" PVC posts, rebar, CA glue. The design itself is free.",
+      "caveats": "Commenters had FM signs stolen from their yards; one plans to AirTag theirs. CA-glue the joints.",
+      "files": [
+        {
+          "label": "MakerWorld: files and .xmodel",
+          "url": "https://makerworld.com/en/models/3433909-tune-in-led-radio-station-sign-xlights-model"
+        }
+      ]
+    }
+  ]
+}
